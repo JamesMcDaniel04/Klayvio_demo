@@ -39,3 +39,6 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+
+# Claude Code files (should not be committed)
+CLAUDE.md
