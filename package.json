@@ -1,0 +1,22 @@
+{
+  "name": "klaviyo-developer-tracker",
+  "version": "1.0.0",
+  "description": "A creative developer productivity tracker that integrates with Klaviyo's API to send automated events based on Git activity, triggering personalized marketing campaigns and notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js start",
+    "test": "node index.js test",
+    "check": "node index.js check",
+    "dev": "nodemon index.js start"
+  },
+  "keywords": ["klaviyo", "developer-productivity", "git-tracking", "marketing-automation", "api-integration"],
+  "author": "James McDaniel",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.2.0",
+    "node-cron": "^4.2.1",
+    "simple-git": "^3.28.0"
+  }
+}
