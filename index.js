@@ -116,8 +116,13 @@ class KlaviyoDeveloperTracker {
      */
     async getGitActivity() {
         try {
-            // Get recent commits from today
-            const commits = await this.gitRepo.log(['--since=today']);
+            // Get recent commits from the last 24 hours
+            const commits = await this.gitRepo.log(['--since=24.hours.ago']);
+            
+            console.log(`Debug: Found ${commits.all.length} commits in last 24 hours`);
+            if (commits.all.length > 0) {
+                console.log('Latest commit:', commits.all[0].hash.substring(0, 8), commits.all[0].message.substring(0, 50));
+            }
 
             // Get current branch info
             const branch = await this.gitRepo.branchLocal();
