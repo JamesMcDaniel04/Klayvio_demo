@@ -348,4 +348,3 @@ Make sure to configure your .env file with your Klaviyo API key!
 }
 
 module.exports = KlaviyoDeveloperTracker;
-//comment_04
