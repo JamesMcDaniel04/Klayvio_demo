@@ -118,10 +118,7 @@ class KlaviyoDeveloperTracker {
         try {
             // Get recent commits from today
             const today = new Date().toISOString().split('T')[0];
-            const commits = await this.gitRepo.log({
-                since: today,
-                until: `${today} 23:59:59`
-            });
+            const commits = await this.gitRepo.log(['--since=' + today, '--until=' + today + ' 23:59:59']);
 
             // Get current branch info
             const branch = await this.gitRepo.branchLocal();
