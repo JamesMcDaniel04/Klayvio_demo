@@ -196,4 +196,8 @@ METRIC_PREFIX=developer_productivity
 **Email**: developer@example.com  
 **Project**: Klaviyo Technical Challenge Submission
 
-> *This project demonstrates the creative potential of Klaviyo's Event API to revolutionize developer productivity and team collaboration through intelligent automation.*
+> *This project demonstrates the creative potential of Klaviyo's Event API to revolutionize developer productivity and team collaboration through intelligent automation.*# Demo Complete
+
+This commit demonstrates the Klaviyo integration working successfully!
+
+The flow should now trigger and send an email.
