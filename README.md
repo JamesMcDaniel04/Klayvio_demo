@@ -193,7 +193,7 @@ METRIC_PREFIX=developer_productivity
 ## 📧 Contact
 
 **Developer**: James McDaniel  
-**Email**: developer@example.com  
+**Email**: hello@joinfloor.app  
 **Project**: Klaviyo Technical Challenge Submission
 
 > *This project demonstrates the creative potential of Klaviyo's Event API to revolutionize developer productivity and team collaboration through intelligent automation.*# Demo Complete
